@@ -12,3 +12,7 @@ So basically, the manual version of *WixTriks* entails that you put `?.wix.com` 
 
 > [!NOTE]
 > This is just a backup kajig in case you find yourself temporarily unable to use much better methods of defying the rules and going to sites you aren't supposed to. This sucks (Especially on Discord). Don't use it unless you need to.
+
+## Usage with Discord
+
+If you plan to use this mostly for Discord, you can use the WIP `discord.js` scriptlet instead, which aims to provide seamless transition between Discord pages.
