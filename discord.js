@@ -1,5 +1,5 @@
 /// discord.js
-if(window.location.hostname.endsWith('discord.com')||window.location.hostname.endsWith('discordapp.com')){
-  const url=new URL(window.location.href);
-  url.searchParams.set('.wix.com','.wix.com');history.replaceState({path:url.href},'',url.href);
-};
+const url=new URL(window.location.href);
+addParam=function(){if(window.location.hostname.endsWith('discord.com')||window.location.hostname.endsWith('discordapp.com')){url.searchParams.set('.wix.com','.wix.com');history.replaceState({path:url.href},'',url.href)}};
+addParam();
+window.addEventListener{'popstate',addParam()};
